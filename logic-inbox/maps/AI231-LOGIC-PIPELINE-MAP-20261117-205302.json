@@ -1,0 +1,30 @@
+{
+  "id": "AI231-LOGIC-PIPELINE-MAP-20261117-205302",
+  "kind": "SYSTEM_FLOW_PROPOSAL",
+  "status": "PROPOSED",
+  "sourceRecordIds": [
+    "AI231-LOGIC-CONTRACT-START-RULE-20261117-205302",
+    "AI231-LOGIC-AUTO-MAP-EXCEL-REQUEST-20261117-205302"
+  ],
+  "edges": [
+    {
+      "id": "edge-auto-accumulation-001",
+      "sourceRecordId": "AI231-LOGIC-AUTO-MAP-EXCEL-REQUEST-20261117-205302",
+      "source": "logicCapture",
+      "target": "logicRegistry",
+      "relation": "automatic accumulation and clarification",
+      "evidenceQuote": "לפי הלוגיקה שמצטברת ומתבררת כל פעם",
+      "status": "PROPOSED"
+    }
+  ],
+  "excelLinks": [],
+  "mermaid": "flowchart LR\n  U[\"Logic prompt / rule / correction\"] --> C[\"Exact capture + provenance\"]\n  C --> S[\"Timestamp + Contract_Start_Time + Action_ID + SHA-256\"]\n  S --> G[\"GitHub logic-sync-inbox\"]\n  G --> P[\"15-minute pull + signature validation\"]\n  P --> R[\"AI231 Logic Registry\"]\n  R --> W[\"Workbook manifests + 500-cell chunks\"]\n  R --> A[\"Source-grounded analysis\"]\n  A --> M[\"Mermaid map\"]\n  A --> F[\"FigJam diagram\"]\n  A --> D[\"GitDiagram reference\"]\n  A --> X[\"Proposed Excel cell links\"]\n  X --> O[\"Owner review / approval\"]\n  O --> E[\"Traceable Excel export\"]\n  R -.-> MAIN[\"main remains protected\"]",
+  "figmaUrl": "https://www.figma.com/board/9pBT4leGUfhmt66nnPc0xX",
+  "gitdiagramUrl": "https://gitdiagram.com/quadruple-multilevel-projection-project/ark-kernel-oversight",
+  "gitdiagramStatus": "GENERATOR_LINK_ONLY",
+  "timestamp": "2026-11-17T20:53:02+02:00",
+  "contractStartTime": "2026-11-17T20:29:00+02:00",
+  "actionId": "AI231-LOGIC-PIPELINE-MAP-20261117-205302",
+  "signature": "dc81032f9cb78c081112e5efd9daf952b1f2a746d2679427cbe07808a94e8005",
+  "syncStatus": "PENDING_APP_IMPORT"
+}
