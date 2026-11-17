@@ -1,0 +1,15 @@
+{
+  "id": "AI231-LOGIC-CONTRACT-START-RULE-20261117-205302",
+  "kind": "RULE",
+  "rawText": "כן ומעכשיו אתה לא צריך לשאול אותי יותר בכל הסשן הזה ובכל העניינים שקשורים ללוגיקה תזכור את זה עכשיו",
+  "rawTextSha256": "fbd6159208e4461002d7d5626bbffa35afbb39188e010541d43360fe540c406d",
+  "sourceName": "ChatGPT conversation",
+  "sourceLocator": "Current conversation; exact message ID is not exposed",
+  "claimStatus": "USER_PREMISE",
+  "timestamp": "2026-11-17T20:53:02+02:00",
+  "contractStartTime": "2026-11-17T20:29:00+02:00",
+  "actionId": "AI231-LOGIC-CONTRACT-START-RULE-20261117-205302",
+  "signature": "c192dec18d084b79233fc319957666bb9b3077403cc96039820adffe47ed07ee",
+  "syncStatus": "PENDING_APP_IMPORT",
+  "version": 1
+}
