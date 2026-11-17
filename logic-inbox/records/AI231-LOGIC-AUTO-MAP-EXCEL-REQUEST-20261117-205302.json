@@ -1,0 +1,15 @@
+{
+  "id": "AI231-LOGIC-AUTO-MAP-EXCEL-REQUEST-20261117-205302",
+  "kind": "PROMPT",
+  "rawText": "שאלה הוא בונה את המפות ומחבר את הלינקים לאקס אלים או למה שצריך לחבר את זה באופן אוטומטי אם לא אז תבנה אפליקציה שעושה לו את זה באופן אוטומטי לפי הלוגיקה שמצטברת ומתבררת כל פעם",
+  "rawTextSha256": "2b136057d478794ec38b8f24e9a07928cbdec70691fc453f320a3d29394f7c7c",
+  "sourceName": "ChatGPT conversation",
+  "sourceLocator": "Current conversation; exact message ID is not exposed",
+  "claimStatus": "USER_PREMISE",
+  "timestamp": "2026-11-17T20:53:02+02:00",
+  "contractStartTime": "2026-11-17T20:29:00+02:00",
+  "actionId": "AI231-LOGIC-AUTO-MAP-EXCEL-REQUEST-20261117-205302",
+  "signature": "987d5efd985a234982a7c4e86343d2c03417e866ec4c61a74d3d133beb1b915c",
+  "syncStatus": "PENDING_APP_IMPORT",
+  "version": 1
+}
